@@ -9,10 +9,10 @@ class Person
     private int age; 
   
   // Constructor 
-    public Person(String _name, int _age) 
+    public Person(String name, int age) 
     { 
-        String name = _name; 
-        int age = _age; 
+        this.name = name; 
+        this.age = age; 
     } 
 
   // Instance methods 

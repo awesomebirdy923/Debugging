@@ -27,7 +27,7 @@ class Account
 	 */
 	public void deposit(double amount)
 	{
-		balance = balance + amount;
+		balance+=amount;
 	}
 
 	/** Withdraws 'amount' from the account.
@@ -37,7 +37,7 @@ class Account
 	 */
 	public void withdraw(double amount)
 	{
-		balance = balance - amount;
+		balance-= amount;
 	}
 
 	/* Returns the balance of the Account
